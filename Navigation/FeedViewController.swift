@@ -10,7 +10,7 @@ import StorageService
 
 class FeedViewController: UIViewController {
 
-    var post = Post(title: "Мой пост")
+    public var post = Post(title: "Мой пост")
     private lazy var button1: UIButton = {
         let button1 = UIButton()
         button1.backgroundColor = .red
@@ -50,11 +50,13 @@ class FeedViewController: UIViewController {
         stackView.addArrangedSubview(self.button1)
         stackView.addArrangedSubview(self.button2)
     }
-    @objc private func buttonAction() {
+    
+    @objc public func buttonAction() {
         let postViewController = PostLogInViewController()
         self.navigationController?.pushViewController(postViewController, animated: true)
         postViewController.titlePost = post.title
     }
+    
     private func setupContraints() {
         NSLayoutConstraint.activate([
             stackView.leadingAnchor.constraint(equalTo:  self.view.leadingAnchor, constant: 20),
