@@ -6,7 +6,8 @@
 //
 
 import UIKit
+import StorageService
 
-struct Post {
+public struct Post {
     var title: String
 }
