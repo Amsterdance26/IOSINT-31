@@ -7,19 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		000C2B9F2A1B38D900B53384 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008319A629EEECDD00C92210 /* PostTableViewCell.swift */; };
-		000C2BA02A1B38D900B53384 /* PostLogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0054969529DC304200902BF3 /* PostLogInViewController.swift */; };
-		000C2BA12A1B38D900B53384 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002898BD299ACB2E00A52AC0 /* AppDelegate.swift */; };
-		000C2BA22A1B38D900B53384 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008319B029EEEE1E00C92210 /* Post.swift */; };
-		000C2BA32A1B38D900B53384 /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FD8EAB29A6381000F1DE3E /* ProfileHeaderView.swift */; };
-		000C2BA42A1B38D900B53384 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00AC24BA299B6A0A000E8D02 /* FeedViewController.swift */; };
-		000C2BA52A1B38D900B53384 /* ProfileTableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002CA9BE29ED35CA005EA509 /* ProfileTableHeaderView.swift */; };
-		000C2BA62A1B38D900B53384 /* Source.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008319AC29EEED7500C92210 /* Source.swift */; };
-		000C2BA72A1B38D900B53384 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009C5B4E299D2B8800C4E50C /* InfoViewController.swift */; };
-		000C2BA82A1B38D900B53384 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A70B4729C324DB00F1309B /* LogInViewController.swift */; };
-		000C2BA92A1B38D900B53384 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002898BF299ACB2E00A52AC0 /* SceneDelegate.swift */; };
-		000C2BAC2A1B38D900B53384 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 002898C8299ACB2F00A52AC0 /* LaunchScreen.storyboard */; };
-		000C2BAD2A1B38D900B53384 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 002898C6299ACB2F00A52AC0 /* Assets.xcassets */; };
 		002898BE299ACB2E00A52AC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002898BD299ACB2E00A52AC0 /* AppDelegate.swift */; };
 		002898C0299ACB2E00A52AC0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002898BF299ACB2E00A52AC0 /* SceneDelegate.swift */; };
 		002898C7299ACB2F00A52AC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 002898C6299ACB2F00A52AC0 /* Assets.xcassets */; };
@@ -36,8 +23,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		000C2BB12A1B38D900B53384 /* StorageService.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StorageService.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		000C2BB22A1B38D900B53384 /* Navigation copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Navigation copy-Info.plist"; path = "/Users/amsterdance26/Desktop/Мои документы/Программирование Swift/Нетология/4. UIKit Домашние задания/IOSINT-31/Navigation copy-Info.plist"; sourceTree = "<absolute>"; };
 		002898BA299ACB2E00A52AC0 /* Navigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Navigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		002898BD299ACB2E00A52AC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		002898BF299ACB2E00A52AC0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,13 +41,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		000C2BAA2A1B38D900B53384 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		002898B7299ACB2E00A52AC0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -78,7 +56,6 @@
 			children = (
 				002898BC299ACB2E00A52AC0 /* Navigation */,
 				002898BB299ACB2E00A52AC0 /* Products */,
-				000C2BB22A1B38D900B53384 /* Navigation copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,7 +63,6 @@
 			isa = PBXGroup;
 			children = (
 				002898BA299ACB2E00A52AC0 /* Navigation.app */,
-				000C2BB12A1B38D900B53384 /* StorageService.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -115,23 +91,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		000C2B9D2A1B38D900B53384 /* StorageService */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 000C2BAE2A1B38D900B53384 /* Build configuration list for PBXNativeTarget "StorageService" */;
-			buildPhases = (
-				000C2B9E2A1B38D900B53384 /* Sources */,
-				000C2BAA2A1B38D900B53384 /* Frameworks */,
-				000C2BAB2A1B38D900B53384 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = StorageService;
-			productName = Navigation;
-			productReference = 000C2BB12A1B38D900B53384 /* StorageService.app */;
-			productType = "com.apple.product-type.application";
-		};
 		002898B9299ACB2E00A52AC0 /* Navigation */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 002898CE299ACB2F00A52AC0 /* Build configuration list for PBXNativeTarget "Navigation" */;
@@ -178,21 +137,11 @@
 			projectRoot = "";
 			targets = (
 				002898B9299ACB2E00A52AC0 /* Navigation */,
-				000C2B9D2A1B38D900B53384 /* StorageService */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		000C2BAB2A1B38D900B53384 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				000C2BAC2A1B38D900B53384 /* LaunchScreen.storyboard in Resources */,
-				000C2BAD2A1B38D900B53384 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		002898B8299ACB2E00A52AC0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -205,24 +154,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		000C2B9E2A1B38D900B53384 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				000C2B9F2A1B38D900B53384 /* PostTableViewCell.swift in Sources */,
-				000C2BA02A1B38D900B53384 /* PostLogInViewController.swift in Sources */,
-				000C2BA12A1B38D900B53384 /* AppDelegate.swift in Sources */,
-				000C2BA22A1B38D900B53384 /* Post.swift in Sources */,
-				000C2BA32A1B38D900B53384 /* ProfileHeaderView.swift in Sources */,
-				000C2BA42A1B38D900B53384 /* FeedViewController.swift in Sources */,
-				000C2BA52A1B38D900B53384 /* ProfileTableHeaderView.swift in Sources */,
-				000C2BA62A1B38D900B53384 /* Source.swift in Sources */,
-				000C2BA72A1B38D900B53384 /* InfoViewController.swift in Sources */,
-				000C2BA82A1B38D900B53384 /* LogInViewController.swift in Sources */,
-				000C2BA92A1B38D900B53384 /* SceneDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		002898B6299ACB2E00A52AC0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -255,58 +186,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		000C2BAF2A1B38D900B53384 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Navigation copy-Info.plist";
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.amsterdance26.Navigation;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		000C2BB02A1B38D900B53384 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Navigation copy-Info.plist";
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.amsterdance26.Navigation;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 		002898CC299ACB2F00A52AC0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -476,15 +355,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		000C2BAE2A1B38D900B53384 /* Build configuration list for PBXNativeTarget "StorageService" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				000C2BAF2A1B38D900B53384 /* Debug */,
-				000C2BB02A1B38D900B53384 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		002898B5299ACB2E00A52AC0 /* Build configuration list for PBXProject "Navigation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
