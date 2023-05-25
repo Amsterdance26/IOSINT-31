@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import StorageService
 
 struct Posts {
     var author: String

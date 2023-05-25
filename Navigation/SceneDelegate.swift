@@ -7,6 +7,8 @@
 
 
 import UIKit
+import StorageService
+
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 

@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import StorageService
 
 class ProfileTableHeaderView: UIViewController {
     let header: ProfileHeaderView = {
