@@ -15,7 +15,6 @@ class ProfileTableHeaderView: UIViewController {
         return header
     }()
 
-    var posts = Source.makePost()
     let tableView: UITableView = {
         let tableView = UITableView(frame: .zero, style: .grouped)
         tableView.translatesAutoresizingMaskIntoConstraints = false

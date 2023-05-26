@@ -10,7 +10,6 @@ import StorageService
 
 class FeedViewController: UIViewController {
 
-    public var post = Post(title: "Мой пост")
     private lazy var button1: UIButton = {
         let button1 = UIButton()
         button1.backgroundColor = .red
