@@ -53,7 +53,7 @@ class FeedViewController: UIViewController {
     @objc public func buttonAction() {
         let postViewController = PostLogInViewController()
         self.navigationController?.pushViewController(postViewController, animated: true)
-        postViewController.titlePost = post.title
+        postViewController.titlePost = publicPost.title
     }
     
     private func setupContraints() {
