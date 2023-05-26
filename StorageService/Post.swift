@@ -8,10 +8,18 @@
 import UIKit
 import StorageService
 
-public struct Post {
-    var title: String
+public struct Posts {
+    var author: String
+    var image: UIImage
+    var description: String
+    var likes: Int
+    var views: Int
     
-    public init(title: String) {
-        self.title = title
+    public init(author: String, image: UIImage, description: String, likes: Int, views: Int) {
+        self.author = author
+        self.image = image
+        self.description = description
+        self.likes = likes
+        self.views = views
     }
 }
