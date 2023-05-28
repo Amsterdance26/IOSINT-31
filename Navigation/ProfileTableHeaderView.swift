@@ -28,7 +28,12 @@ class ProfileTableHeaderView: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .white
+        
+#if DEBUG
+        view.backgroundColor = .systemPink
+#else
+        view.backgroundColor = .systemGreen
+#endif
         setupUI()
         setupTableView()
         tableView.dataSource = self
